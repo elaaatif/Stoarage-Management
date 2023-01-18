@@ -187,8 +187,8 @@ public  class product_view_control implements  Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
         String dbUsername = "root";
-        String dbPassword = "MYSQL2020";
-        String dbURL = "jdbc:mysql://localhost:3306/storage_management";
+        String dbPassword = "";
+        String dbURL = "jdbc:mysql://localhost:3306/xxxx";
         ObservableList<Object> data = null;
         try {
 
